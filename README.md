@@ -27,6 +27,14 @@ The original flags hard, because the mod it contains is a textbook token stealer
 
 The cloaked jar contains the exact same bytes except the two that say how many entries there are. Nothing for a summary-trusting scanner to index, nothing to flag.
 
+**`examplemod.jar` — before:**
+
+![scan of examplemod.jar, flagged as malicious](example/before.png)
+
+**`examplemod-cloaked.jar` — after:**
+
+![scan of examplemod-cloaked.jar, no findings](example/after.png)
+
 ## Use
 
 ```
