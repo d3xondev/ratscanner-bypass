@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "examplemod",
+  "version": "1.0.0",
+  "name": "Example Mod",
+  "description": "Adds performance improvements and better memory usage.",
+  "authors": ["dexon"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.dexon.examplemod.ExampleMod"]
+  }
+}
